@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>House of Bags-Handbag store</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<!--Main Body start-->
+
+<body class="bg-secondary">
+    <!--Fixed header-->
+    <div class="fixed-top text-center bg-white">
+        <h4>Free shipping with orders over $100 and more, use code FREESHIP100</h4>
+    </div>
+    <!--Fixed header-->
+    <!--Main Navigation-->
+    <div class="container pt-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <div class="logo general-heading">
+                        <img src="https://cdn4.iconfinder.com/data/icons/bags-handbags/128/13-1024.png"
+                            class="img-fluid" width="100" height="100">House of bags
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse general-heading3" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Women
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Handbags</a></li>
+                                <li><a class="dropdown-item" href="#">crossbody</a></li>
+                                <li><a class="dropdown-item" href="#">Cluthes</a></li>
+                                <li><a class="dropdown-item" href="#">clasic logo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Men
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">wallets</a></li>
+                                <li><a class="dropdown-item" href="#">Duffle bags</a></li>
+                                <li><a class="dropdown-item" href="#">Gym bags</a></li>
+                                <li><a class="dropdown-item" href="#">Travel essentials</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Top Brands
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Chanel</a></li>
+                                <li><a class="dropdown-item" href="#">Gucci</a></li>
+                                <li><a class="dropdown-item" href="#">coach</a></li>
+                                <li><a class="dropdown-item" href="#">Louis vuitton</a></li>
+                                <li><a class="dropdown-item" href="#">Burberry</a></li>
+                                <li><a class="dropdown-item" href="#">Prada</a></li>
+                                <li><a class="dropdown-item" href="#">Tommy Hilfiger</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modalforcontactus">
+                                contact us
+                            </button>
+                        </li>
+                    </ul>
+                    <!--Modal window for contact us-->
+                    <div class="modal fade" id="Modalforcontactus" tabindex="-1" aria-labelledby="ModalforcontactLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-secondary">
+                                    <h1 class="modal-title fs-5" id="Modalforcontactus">Send us an enquiry and we'll
+                                        respond within 2 workign days</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row mb-3">
+                                        <div class="col-md-3"><label for="name" class="form-label">Full Name</label>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <input class="input-box" type="text" id="name"
+                                                placeholder="enter your full name" required>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-3"><label for="name" class="form-label">Email ID</label>
+                                        </div>
+                                        <div class="col-md-9"><input class="input-box" type="text" id="name"
+                                                placeholder="example@mail.com" required>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-3"><label for="name" class="form-label">Query</label>
+                                            </div>
+                                            <div class="col-md-9"><input class="input-box" type="text" id="name"
+                                                    placeholder="Enter your query here" required>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col-md-3"><button type="button"
+                                                        class="btn btn-primary">Send</button> </div>
+                                                <div class="col-md-9"><button type="button"
+                                                        class="btn btn-primary">Cancel</button> </div>
+
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--login button-->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn button" type="submit">Search</button>
+                    </form>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#Modalforlogin">
+                        Login
+                    </button>
+
+                    <!--Main Navigation-->
+
+                    <!--Modal window for login-->
+                    <div class="modal fade" id="Modalforlogin" tabindex="-1" aria-labelledby="ModalforloginLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-secondary">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Enter your login details</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row mb-3">
+                                        <div class="col-md-3"><label for="name" class="form-label">Username</label>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <input class="input-box" type="text" id="name" placeholder="enter your name"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-3"><label for="name" class="form-label">Password</label>
+                                        </div>
+                                        <div class="col-md-9"><input class="input-box" type="password" id="password1"
+                                                placeholder="Minimum 8 digits" required></div>
+                                    </div>
+                                    <div class="row"><button type="button" class="btn btn-primary">Login</button> </div>
+
+                                    <a href="#">forgot Username?</a>
+                                    <a href="#">forgot password?</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <p> Don't have an account ? Sign-up here </p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Modalforsign-up">
+                                        sign-up
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--MOdal window for login-->
+    <!--MOdal window for sign-up-->
+    <div class="modal fade" id="Modalforsign-up" tabindex="-1" aria-labelledby="ModalforloginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-secondary">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Enter your login details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-md-4"> <label for="name"><b>First Name</b></label></div>
+                        <div class="col-md-8"><input class="input-box" type="text" id="name"
+                                placeholder="enter your first name" required></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4"><label for="name"><b>Last Name</b></label></div>
+                        <div class="col-md-8"><input class="input-box" type="text" id="name"
+                                placeholder="enter your last name" required></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4"><label for="email"><b>Enter your Email</b></label></div>
+                        <div class="col-md-8"><input class="input-box" type="email" id="email"
+                                placeholder="enter your email" required></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-5"><label for="password1"><b>Enter a valid password</b></label></div>
+                        <div class="col-md-7"><input class="input-box" type="password" id="password1"
+                                placeholder="Minimum 8 digits" required></div>
+                        <div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-5"><label for="name"><b>Re-enter your password</b></label></div>
+                                <div class="col-md-7"></label><input class="input-box" type="password" id="password2"
+                                        placeholder="re-enter your password" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-3"><button type="button" class="btn btn-primary"
+                                        data-bs-toggle="modal" data-bs-target="#Modalforsign-up">
+                                        sign-up
+                                    </button></div>
+                                <div class="col-md-9"><button type="button" class="btn btn-primary">cancel</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+    </div>
+    <!--MOdal window for sign-up-->
+    <!-- Carousel1 start -->
+    <div class="container bg-light">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://media.glamourmagazine.co.uk/photos/6385f983175b25d8d934d271/16:9/w_2560%2Cc_limit/IT%2520BAGS%2520291122%2520GettyImages-1444918905_SF.jpeg"
+                        class="d-block w-100 h-90" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Experience Luxury with Prada Handbags</h2>
+                        <p>Elevate your style with the timeless elegance and unmatched craftsmanship of Prada handbags.
+                            Whether you're stepping into a boardroom or strolling through the city, a Prada handbag is
+                            the perfect companion for every occasion.
+
+                            Designed to embody sophistication and modernity, each handbag is meticulously crafted using
+                            the finest materials. From classic silhouettes to contemporary designs, Prada offers a
+                            diverse collection that caters to every fashion-forward individual.
+
+                            Discover the allure of Prada handbags and indulge in a touch of luxury that speaks volumes
+                            about your unique style. Elevate your wardrobe, elevate your life – with Prada
+                        </p>
+                        <button class="btn button" type="submit">see more</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://blog.fashionphile.com/wp-content/uploads/2022/10/Hero-7.jpg"
+                        class="d-block w-100 h-90" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Discover Timeless Elegance with Louis Vuitton Handbags</h2>
+                        <p>Step into a world of luxury and sophistication with Louis Vuitton handbags. Renowned for
+                            their impeccable craftsmanship and iconic designs, Louis Vuitton handbags are the epitome of
+                            style and elegance.
+
+                            Each handbag is meticulously crafted using the finest materials, ensuring both durability
+                            and timeless appeal. From the classic monogram canvas to the modern and bold leather
+                            designs, there is a Louis Vuitton handbag to suit every taste and occasion.
+
+                            Indulge in the legacy of Louis Vuitton and make a statement with a handbag that reflects
+                            your unique style and grace. Elevate your fashion game and experience the ultimate in luxury
+                            with Louis Vuitton</p>
+                        <button class="btn button" type="submit">see more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://rarest.org/wp-content/uploads/2022/11/Most-Expensive-Gucci-Bags.jpg"
+                        class="d-block w-100 h-90" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Embrace Iconic Style with Gucci Handbags</h2>
+                        <p>Step into a world of fashion-forward elegance with Gucci handbags. Renowned for their bold
+                            designs and impeccable craftsmanship, Gucci handbags are a symbol of luxury and
+                            sophistication.
+
+                            Each piece is meticulously crafted using the finest materials, ensuring both quality and
+                            style that stand the test of time. From the distinctive GG monogram to the innovative and
+                            contemporary designs, Gucci offers a diverse collection that caters to every fashion
+                            enthusiast.
+
+                            Elevate your wardrobe with a touch of Italian glamour and make a statement with a Gucci
+                            handbag. Indulge in the legacy of Gucci and experience the ultimate in luxury and style.</p>
+                        <button class="btn button" type="submit">see more</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <marquee direction="right">
+            <p class="general-heading2">Sign up and save 10% off everytime you shop instore or online</p>
+        </marquee>
+    </div>
+    <!-- Carousel1 end -->
+
+    <div class="container bg-light text-center">
+        <h2>Popular Products</h2>
+    </div>
+    <!-----------multi slider---->
+    <div class="container position-relative">
+        <div class="slider-btn prev" id="prevbtn"> &#x2190; </div>
+        <div class="slider-btn nxt" id="nextbtn"> &#x2192; </div>
+        <div id="slider" class="slider mt-3 mb-3 ">
+
+
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://i.pinimg.com/736x/ce/33/e7/ce33e797ddc6716a3f10744c74442340.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Gucci sling bag</p>
+                        </P><del>RRP $482</del> <ins>NOW $380 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://i.pinimg.com/originals/ff/1f/c7/ff1fc7e83bbd9ee656fcdb17c91190df.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Gucci shoulder bag</P>
+                        <p><del>RRP $400</del> <ins>NOW $350 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/91kKKywaRNL._AC_UL1500_.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Tommy Hilfiger shoulder bag classic logo</P>
+                        <p><del>RRP $300</del> <ins>NOW $250 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://cdn.shopify.com/s/files/1/1539/8211/products/DSC03801.JPG?v=1569616505"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">channel tote bag in beige</P>
+                        <p><del>RRP $500</del> <ins>NOW $450 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://www.hollywoodreporter.com/wp-content/uploads/2023/04/ZENDAYA_ANNOUNCED_AS_LOUIS_VUITTON__220x285-EMBED-2023.jpg?w=1000"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">LV crossbody bag</P>
+                        <p><del>RRP $600</del> <ins>NOW $529 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://cdn2.jomashop.com/media/catalog/product/b/u/burberry-house-check-leather-continental-wallet---tan-3975350_2_2.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Burberry wallets</P>
+                        <p><del>RRP $1500</del> <ins>NOW $800 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image" src="https://m.media-amazon.com/images/I/A1jg6zrF1oL._AC_SL1500_.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Samsonite Travel Duo</P>
+                        <p><del>RRP $1200</del> <ins>NOW $840 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://i.pinimg.com/originals/4c/a2/9f/4ca29f6afb228c2fcbaf8c0c1574235b.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">chanel gym bag</P>
+                        <p><del>RRP $1400</del> <ins>NOW $950 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://www.honestbrandreviews.com/wp-content/uploads/2021/11/10-Best-Handbag-Brands-11-1-1200x1200.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Guess handbags</P>
+                        <p><del>RRP $1100</del> <ins>NOW $850 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item p-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="slider-image"
+                        src="https://cdn.shopify.com/s/files/1/0019/1411/0010/products/TB2Znn7oXXXXXa7XpXXXXXXXXXX__2537474270_1024x1024.jpg?v=1530590544"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="general-heading3">Leather bags for men</P>
+                        <p><del>RRP $4200</del> <ins>NOW $3540 ONLY</ins></p>
+                        <a><img class="icon" src="https://www.nicepng.com/png/full/285-2851862_add-to-cart-png.png"
+                                id="add-to-cart"></a>
+                        <a><img class="icon" src="https://cdn0.iconfinder.com/data/icons/mini-icon-2-2/16/fav-512.png"
+                                id="add-to-fav"></a>
+                        <a href="#"> see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col">
+                <p class="general-heading2">Find a store new you, using our interactive map</p>
+                <form id="Store-locator">
+                    <input type="text" id="search-input" placeholder="Enter your postcode">
+                    <input class="button" type="submit" value="Search" id="submit-btn">
+                </form>
+                <Img src="https://geographic.media/wp-content/uploads/Melbourne-Google-Street-Map.jpg" height="300px"
+                    width="700px">
+            </div>
+
+            <div class="col">
+                <h2>
+                    <p class="general-heading2">Subscribe to our newsletter and get exclusive member offers straight
+                        into
+                        your
+                        inbox</p>
+                    <form id="subscribe-form">
+                        <input class="input-box" type="text" id="search-input" placeholder="Enter your Email address">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#Modalforsubscribe">
+                            subscribe
+                        </button>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal window for subscribe Button-->
+    <div class="modal fade" tabindex="-1" id="Modalforsubscribe" tabindex="-1" aria-labelledby="ModalforsubscribeLabel"
+        aria-hidden="true">>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Stay upto date with latest offers directly into your inbox</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for subscribing !!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Unsubscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal window for subscribe-->
+
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col">
+                <ul class="footer-list">
+                    <li>
+                        <p class="general-heading3">About us</p>
+                    </li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">store Locator</a></li>
+                    <li><a href="#">Product Reviews</a></li>
+                    <li><a href="#">careers</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer-list">
+                    <li>
+                        <p class="general-heading3">Customer Care</p>
+                    </li>
+
+                    <li><a href="#">Deliveries & Returns</a></li>
+                    <li><a href="#">Track your order</a></li>
+                    <li><a href="#">Special discounts and offers</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">send us a query</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer-list">
+                    <li>
+                        <p class="general-heading3">Membership Program</p>
+                    </li>
+
+                    <li><a href="#">Our Membership Programs</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Membership Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer-list">
+                    <li>
+                        <p class="general-heading3">Shopping guide</p>
+                    </li>
+                    <li><a href="#">View your cart</a></li>
+                    <li><a href="#">Make a wish-list</a></li>
+                    <li><a href="#">Your favourites</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul class="footer-list">
+                    <li>
+                        <p class="general-heading3">Our environment initaitves</p>
+                    <li><a href="#">Our achievements</a></li>
+                    <li><a href="#">make a donation</a></li>
+                    <li><a href="#">sign-up for monthly donations</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light">
+        <p class="general-heading3">Experience seamless online shopping with a variety of secure payment options. Shop
+            now and pay your way</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-light">
+                <ul class="payment-and-social">
+                    <li><a href="https://usa.review.visa.com/en_us/account/login-form"><img class="icon2"
+                                src="https://cdn2.iconfinder.com/data/icons/50-airport/512/43_Visa_Card-1024.png"
+                                id="visa-class"></a>
+                    </li>
+                    <li><a href="https://redemption.mastercard.com/#/user/login?language=en-US"><img class="icon2"
+                                src="https://toppng.com/uploads/preview/mastercard-black-vector-logo-free-download-115740766138bozoxpxkp.png"
+                                id="mastercard"></a></li>
+                    <li><a href="https://portal.afterpay.com/au/login-email"><img class="icon2"
+                                src="https://www.svgrepo.com/show/442893/brand-afterpay.svg" id="afterpay"></a></li>
+                    <li><a href="https://www.paypal.com/au/home"><img class="icon2"
+                                src="https://pluspng.com/img-png/paypal-png-paypal-icon-png-50-px-1600.png"
+                                id="paypal"></a></li>
+                </ul>
+            </div>
+            <div class="col bg-light">
+                <ul style="float:right" class="payment-and-social">
+
+                    <li><a href="https://www.facebook.com/login.php/"><img class="icon2"
+                                src="https://clipartcraft.com/images/facebook-logo-transparent-outline-6.png"
+                                id="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/"><img class="icon2"
+                                src="https://pluspng.com/img-png/instagram-icon-png-instagram-icon-1600.png"
+                                id="instagram"></a></li>
+                    <li><a href="https://x.com/"><img class="icon2"
+                                src="https://static.vecteezy.com/system/resources/previews/022/227/334/original/twitter-logo-icon-free-png.png"
+                                id="twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/login"><img class="icon2"
+                                src="https://pluspng.com/img-png/linkedin-icon-vector-png-linkedin-icon-1600.png"
+                                id="linkedIn"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container fixed-bottom bg-light text-center">
+        <p><b>Copyright @ House of Bags, All rights reserved</b></p>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js" type="text/Javascript"></script>
+</body>
+
+</html>
