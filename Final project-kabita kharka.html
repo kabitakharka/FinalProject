@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>House of Bags-Handbag store</title>
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="Final Project-kabita kharka.css">
 </head>
 <!--Main Body start-->
 
@@ -115,22 +115,28 @@
                                             <div class="col-md-3"><label for="name" class="form-label">Query</label>
                                             </div>
                                             <div class="col-md-9"><input class="input-box" type="text" id="name"
+                                                    style="width: 300px; height: 400px;"
                                                     placeholder="Enter your query here" required>
                                             </div>
                                             <div class="row mb-3">
-                                                <div class="col-md-3"><button type="button"
-                                                        class="btn btn-primary">Send</button> </div>
+
+                                                <div class="col-md-3"><button type="button" class="btn btn-primary"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#Modalforsendquery">Send</button> </div>
                                                 <div class="col-md-9"><button type="button"
                                                         class="btn btn-primary">Cancel</button> </div>
 
-                                           </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--login button-->
+                    <!---modal for sending query-->
+
+
+                    <!--SEARCH form-->
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn button" type="submit">Search</button>
@@ -139,8 +145,6 @@
                         data-bs-target="#Modalforlogin">
                         Login
                     </button>
-
-                    <!--Main Navigation-->
 
                     <!--Modal window for login-->
                     <div class="modal fade" id="Modalforlogin" tabindex="-1" aria-labelledby="ModalforloginLabel"
@@ -233,12 +237,6 @@
                             </div>
 
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -247,6 +245,7 @@
     </nav>
     </div>
     <!--MOdal window for sign-up-->
+    <!--Main Navigation-->
     <!-- Carousel1 start -->
     <div class="container bg-light">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -338,13 +337,11 @@
     <div class="container bg-light text-center">
         <h2>Popular Products</h2>
     </div>
-    <!-----------multi slider---->
+    <!-----------multi slider start---->
     <div class="container position-relative">
         <div class="slider-btn prev" id="prevbtn"> &#x2190; </div>
         <div class="slider-btn nxt" id="nextbtn"> &#x2192; </div>
         <div id="slider" class="slider mt-3 mb-3 ">
-
-
             <div class="slider-item p-2">
                 <div class="card" style="width: 18rem;">
                     <img class="slider-image"
@@ -505,36 +502,49 @@
             </div>
         </div>
     </div>
-
+<!-----------multi slider end---->
+<!-----------store locator and subscribe form start ---->
     <div class="container bg-light">
         <div class="row">
             <div class="col">
-                <p class="general-heading2">Find a store new you, using our interactive map</p>
+                <p class="general-heading2 pt-5">Find a store new you, using our interactive map</p>
                 <form id="Store-locator">
                     <input type="text" id="search-input" placeholder="Enter your postcode">
                     <input class="button" type="submit" value="Search" id="submit-btn">
                 </form>
                 <Img src="https://geographic.media/wp-content/uploads/Melbourne-Google-Street-Map.jpg" height="300px"
-                    width="700px">
+                    width="400px" overflow="hidden">
             </div>
 
             <div class="col">
-                <h2>
-                    <p class="general-heading2">Subscribe to our newsletter and get exclusive member offers straight
+                <div class="row">
+                    <p class="general-heading2 pt-5">Subscribe to our newsletter and get exclusive member offers
+                        straight
                         into
                         your
-                        inbox</p>
-                    <form id="subscribe-form">
-                        <input class="input-box" type="text" id="search-input" placeholder="Enter your Email address">
+                        inbox
+                    </p>
+                </div>
+                <div class="row">
+                    <form class="subscribe">
+                </div><input class="input-box" type="text" placeholder="example@mail.com" style="width: 500px">
+
+                <div class="row">
+                    <div class="col mb-6 pt-3">
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#Modalforsubscribe">
                             subscribe
                         </button>
-                    </form>
+                    </div>
+                    <div class="col mb-6"></div>
+
+                </div>
+                </form>
+
             </div>
         </div>
     </div>
-
+<!-----------store locator and subscribe form end---->
 
     <!--Modal window for subscribe Button-->
     <div class="modal fade" tabindex="-1" id="Modalforsubscribe" tabindex="-1" aria-labelledby="ModalforsubscribeLabel"
@@ -556,8 +566,8 @@
         </div>
     </div>
     <!--Modal window for subscribe-->
-
-    <div class="container bg-light">
+<!--Footer menu start-->
+    <div class="container bg-light pt-4">
         <div class="row">
             <div class="col">
                 <ul class="footer-list">
@@ -617,11 +627,13 @@
             </div>
         </div>
     </div>
-    <div class="container bg-light">
+    <div class="container">
         <p class="general-heading3">Experience seamless online shopping with a variety of secure payment options. Shop
             now and pay your way</p>
     </div>
-    <div class="container">
+    <!--Footer menu end-->
+     <!--Fixed Footer  start-->
+    <div class="container fixed-bottom bg-light pt-4">
         <div class="row">
             <div class="col bg-light">
                 <ul class="payment-and-social">
@@ -640,7 +652,7 @@
                 </ul>
             </div>
             <div class="col bg-light">
-                <ul style="float:right" class="payment-and-social">
+                <ul class="payment-and-social">
 
                     <li><a href="https://www.facebook.com/login.php/"><img class="icon2"
                                 src="https://clipartcraft.com/images/facebook-logo-transparent-outline-6.png"
@@ -656,17 +668,15 @@
                                 id="linkedIn"></a>
                     </li>
                 </ul>
+                <p><b>Copyright @ House of Bags, All rights reserved</b></p>
             </div>
         </div>
     </div>
-    <div class="container fixed-bottom bg-light text-center">
-        <p><b>Copyright @ House of Bags, All rights reserved</b></p>
-    </div>
+ <!--Fixed Footer  start-->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="app.js" type="text/Javascript"></script>
+    <script src="Final Project-kabita kharka.js" type="text/Javascript"></script>
 </body>
-
 </html>

@@ -1,7 +1,7 @@
 .slider {
   height: auto;
   width: 100%;
-  background-color: #c0c0c0;
+  background-color: #fbfbfb;
   display: flex;
   flex-wrap: nowrap;
   overflow-y: hidden;
@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #757575;
+  background-color: gray;
   border-radius: 50%;
   position: absolute;
   margin-top: 150px;
@@ -32,22 +32,23 @@
 .nxt {
   right: -45px;
 }
-
+/* generic style for small icons*/
 .icon {
   height: 20px;
   width: 20px;
 }
-
+/* generic style for bigger icons*/
 .icon2 {
-  height: 60px;
-  width: 60px;
+  height:40px;
+  width: 30px;
+  padding-top: 10px;
 }
 
 .slider-image {
   height: 286px;
   width: 286px;
 }
-
+/*Heading class for biggest fonts*/
 .general-heading {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
@@ -62,14 +63,14 @@
   color: solid black;
   align-content: center;
 }
-
+/*Heading class for smallest fonts*/
 .general-heading3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   color: black;
   align-content: center;
 }
-
+/*Generic design for all buttons*/
 .button {
   display: inline-block;
   padding: 5px 20px;
@@ -82,7 +83,6 @@
   color: white;
   background-color: #1D2951;
   border: none;
-
 }
 
 .footer-list li {
@@ -97,16 +97,6 @@
 .payment-and-social li {
   display: inline-block;
 }
-
-.copyright {
-  position: fixed;
-}
-
-.chatbox {
-  height: 150px;
-  width: 150px;
-}
-
 .Promo {
   color: white;
   align-items: center;

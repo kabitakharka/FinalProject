@@ -1,3 +1,4 @@
+//Slider hero area
 const slidesContainer = document.getElementById("slider");
   const slides = document.querySelectorAll(".slider-item");
   const prevButton = document.getElementById("prevbtn");
